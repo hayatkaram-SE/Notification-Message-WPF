@@ -1,0 +1,18 @@
+﻿<Window x:Class="Notification_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notification_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <Border BorderBrush="#D2042D" BorderThickness="2" Margin="5,15,5,5">
+            <Button Width="150" Height="80" Content="Notify" FontSize="16" Click="Button_Click" Background="White">
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="1" Color="WhiteSmoke"  Opacity="10" ShadowDepth="10" RenderingBias="Quality" />
+                </Button.Effect>
+            </Button>
+        </Border>
+    </Grid>
+</Window>
